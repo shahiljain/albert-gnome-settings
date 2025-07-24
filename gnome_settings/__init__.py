@@ -66,7 +66,7 @@ class Plugin(PluginInstance, GlobalQueryHandler):
             "appearance": {
                 "title": "Appearance",
                 "description": "Configure system theme and appearance",
-                "command": ["gnome-control-center", "appearance"]
+                "command": ["gnome-control-center", "background"]
             },
             "applications": {
                 "title": "Applications",
